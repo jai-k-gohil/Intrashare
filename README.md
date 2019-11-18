@@ -1,19 +1,22 @@
 # Intrashare
 Intrashare is java application which enables users to transfer documents and media files between client and server within same network.
 
-##### Setting up IDE to use JavaFX Scene Builder
+### Setting up IDE to use JavaFX Scene Builder
+---
 1. Once you open the IDE, on the bottom left of the pane click on `Configure > Preferences`.
 2. On the left side of the pane, search for `Languages & Frameworks > JavaFX`, this will open JavaFX setting on the right pane.
 3. In the blank space type in `/Applications/JavaFX Scene Builder 2.0.app` or use `...` to browse to the application.
 4. Once done click on Ok.
 
 ### Fonts Used
+---
 
 Courtesy of
 * [Museo_Slab.otf
 * Museo_Slab_italic.otf
 
 ### Structure
+---
 <pre>
 .
 ├── LICENSE
