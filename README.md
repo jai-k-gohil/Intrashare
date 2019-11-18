@@ -18,8 +18,8 @@ Courtesy of
 .
 ├── LICENSE
 ├── README.md
-├── src
-│   ├── main
++── src
+│   +── main
 │   │   ├── Client.java
 │   │   ├── ClientDemo.java
 │   │   ├── ClientServices.java
@@ -32,7 +32,7 @@ Courtesy of
 │   │   ├── ServerDemo.java
 │   │   ├── ServerUploadFile.java
 │   │   └── ThreadPool.java
-│   └── view
+│   +── view
 │       ├── ClientView.java
 │       ├── ClientViewController.java
 │       ├── Dashboard.java
@@ -48,17 +48,17 @@ Courtesy of
 │       ├── SlideOut.java
 │       ├── UserInterface.java
 │       ├── UserListView.java
-│       ├── controls
+│       +── controls
 │       │   ├── CustomCloseButton.java
 │       │   ├── CustomDialog.java
 │       │   ├── CustomHBoxCell.java
 │       │   ├── CustomListView.java
 │       │   ├── FileListView.java
 │       │   └── FileListViewController.java
-│       └── resources
+│       +── resources
 │           ├── Application.css
 │           ├── Museo_Slab_italic.otf
-│           ├── images
+│           +── images
 │           │   ├── cloudserver.png
 │           │   ├── database-monitor.png
 │           │   ├── downloadedfiles.png
@@ -68,7 +68,7 @@ Courtesy of
 │           │   ├── monitor-processing.png
 │           │   ├── userlogin.png
 │           │   └── usersignup.png
-│           └── museo_slab.otf
+│           +── museo_slab.otf
 ├── test
 </pre>
 
