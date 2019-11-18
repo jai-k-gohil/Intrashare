@@ -1,0 +1,164 @@
+.
+├── LICENSE
+├── README.md
+├── build
+│   ├── built-jar.properties
+│   ├── classes
+│   │   ├── main
+│   │   │   ├── Client.class
+│   │   │   ├── ClientDemo.class
+│   │   │   ├── ClientServices.class
+│   │   │   ├── Commands.class
+│   │   │   ├── CustomSettings.class
+│   │   │   ├── DatabaseManager.class
+│   │   │   ├── FileManager.class
+│   │   │   ├── Server.class
+│   │   │   ├── ServerConnectionObject.class
+│   │   │   ├── ServerDemo.class
+│   │   │   ├── ServerUploadFile.class
+│   │   │   └── ThreadPool.class
+│   │   └── view
+│   │       ├── ClientView$1.class
+│   │       ├── ClientView.class
+│   │       ├── ClientViewController$1.class
+│   │       ├── ClientViewController$2.class
+│   │       ├── ClientViewController$3.class
+│   │       ├── ClientViewController$4.class
+│   │       ├── ClientViewController.class
+│   │       ├── Dashboard$1.class
+│   │       ├── Dashboard$2$1.class
+│   │       ├── Dashboard$2.class
+│   │       ├── Dashboard.class
+│   │       ├── FXUtilities$1.class
+│   │       ├── FXUtilities$2.class
+│   │       ├── FXUtilities$ThrowableWrapper.class
+│   │       ├── FXUtilities.class
+│   │       ├── IntroView$IntroPanel$1.class
+│   │       ├── IntroView$IntroPanel.class
+│   │       ├── IntroView.class
+│   │       ├── LoginForm.class
+│   │       ├── LoginFormController.class
+│   │       ├── LoginView$1.class
+│   │       ├── LoginView$2.class
+│   │       ├── LoginView$3.class
+│   │       ├── LoginView$4.class
+│   │       ├── LoginView.class
+│   │       ├── Scenes.class
+│   │       ├── ServerView$1.class
+│   │       ├── ServerView$2.class
+│   │       ├── ServerView$3.class
+│   │       ├── ServerView.class
+│   │       ├── SignupForm.class
+│   │       ├── SignupFormController.class
+│   │       ├── SlideOut$1.class
+│   │       ├── SlideOut$SideBar$1$1.class
+│   │       ├── SlideOut$SideBar$1$2.class
+│   │       ├── SlideOut$SideBar$1$3.class
+│   │       ├── SlideOut$SideBar$1$4.class
+│   │       ├── SlideOut$SideBar$1.class
+│   │       ├── SlideOut$SideBar.class
+│   │       ├── SlideOut.class
+│   │       ├── UserInterface.class
+│   │       ├── UserListView.class
+│   │       ├── controls
+│   │       │   ├── CustomCloseButton.class
+│   │       │   ├── CustomDialog.class
+│   │       │   ├── CustomHBoxCell.class
+│   │       │   ├── CustomListView.class
+│   │       │   ├── FileListView.class
+│   │       │   ├── FileListViewController$1.class
+│   │       │   ├── FileListViewController$2.class
+│   │       │   ├── FileListViewController$3.class
+│   │       │   ├── FileListViewController$4.class
+│   │       │   └── FileListViewController.class
+│   │       └── resources
+│   │           ├── Application.css
+│   │           ├── Museo_Slab_italic.otf
+│   │           ├── images
+│   │           │   ├── cloudserver.png
+│   │           │   ├── database-monitor.png
+│   │           │   ├── downloadedfiles.png
+│   │           │   ├── error.png
+│   │           │   ├── folder-icon.png
+│   │           │   ├── monitor-documents.png
+│   │           │   ├── monitor-processing.png
+│   │           │   ├── userlogin.png
+│   │           │   └── usersignup.png
+│   │           └── museo_slab.otf
+│   ├── empty
+│   └── generated-sources
+│       └── ap-source-output
+├── build.xml
+├── dist
+│   ├── Intrashare_final_v2.jar
+│   ├── README.TXT
+│   └── lib
+│       ├── controlsfx-8.40.14.jar
+│       └── sqlite-jdbc-3.21.0.jar
+├── manifest.mf
+├── nbproject
+│   ├── build-impl.xml
+│   ├── genfiles.properties
+│   ├── private
+│   │   ├── private.properties
+│   │   ├── private.xml
+│   │   └── profiler
+│   │       ├── configurations.xml
+│   │       └── snapshot-1519676134836.nps
+│   ├── project.properties
+│   └── project.xml
+├── src
+│   ├── main
+│   │   ├── Client.java
+│   │   ├── ClientDemo.java
+│   │   ├── ClientServices.java
+│   │   ├── Commands.java
+│   │   ├── CustomSettings.java
+│   │   ├── DatabaseManager.java
+│   │   ├── FileManager.java
+│   │   ├── Server.java
+│   │   ├── ServerConnectionObject.java
+│   │   ├── ServerDemo.java
+│   │   ├── ServerUploadFile.java
+│   │   └── ThreadPool.java
+│   └── view
+│       ├── ClientView.java
+│       ├── ClientViewController.java
+│       ├── Dashboard.java
+│       ├── FXUtilities.java
+│       ├── IntroView.java
+│       ├── LoginForm.java
+│       ├── LoginFormController.java
+│       ├── LoginView.java
+│       ├── Scenes.java
+│       ├── ServerView.java
+│       ├── SignupForm.java
+│       ├── SignupFormController.java
+│       ├── SlideOut.java
+│       ├── UserInterface.java
+│       ├── UserListView.java
+│       ├── controls
+│       │   ├── CustomCloseButton.java
+│       │   ├── CustomDialog.java
+│       │   ├── CustomHBoxCell.java
+│       │   ├── CustomListView.java
+│       │   ├── FileListView.java
+│       │   └── FileListViewController.java
+│       └── resources
+│           ├── Application.css
+│           ├── Museo_Slab_italic.otf
+│           ├── images
+│           │   ├── cloudserver.png
+│           │   ├── database-monitor.png
+│           │   ├── downloadedfiles.png
+│           │   ├── error.png
+│           │   ├── folder-icon.png
+│           │   ├── monitor-documents.png
+│           │   ├── monitor-processing.png
+│           │   ├── userlogin.png
+│           │   └── usersignup.png
+│           └── museo_slab.otf
+├── test
+└── tree.txt
+
+22 directories, 139 files
